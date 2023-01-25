@@ -21,7 +21,7 @@ public class GabrielMagliaApplication {
 
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://portfolio-375818.web.app").allowedMethods("GET","POST", "PUT", "DELETE", "OPTIONS").allowedHeaders("header1", "header2", "header3");
+				registry.addMapping("/**").allowedOrigins("https://portfolio-375818.web.app").allowedMethods("GET","POST", "PUT", "DELETE", "OPTIONS");
 			}
 		};
 	}
